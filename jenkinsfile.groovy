@@ -6,7 +6,7 @@
         github('https://github.com/rakesh0079/s_camunda.git', 'master')
     }
     triggers {
-        githubPush()
+        scn('*****')
     }
     steps {
         maven('clean package',"pom.xml")
