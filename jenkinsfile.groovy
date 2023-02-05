@@ -1,5 +1,5 @@
 
-  freeStyleJob('CamundaJob') {
+  freeStyleJob('CamundaDSLJOB') {
     logRotator(-1, 10)
     jdk('Java 11')
     scm {
