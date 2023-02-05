@@ -3,7 +3,7 @@
     logRotator(-1, 10)
     jdk('Java 11')
     scm {
-        github('https://github.com/rakesh0079/s_camunda.git', 'master')
+        github('rakesh0079/s_camunda.git', 'master')
     }
     triggers {
         scm('*****')
