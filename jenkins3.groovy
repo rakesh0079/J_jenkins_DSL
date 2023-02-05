@@ -11,9 +11,9 @@ stage('Build Application'){
 steps{
     sh 'mvn clean package'
 }
-}
 
-stage('Post Build'){
+
+post {
 success {
     echo 'Archive artifact ..'
     archiveArtifacts artifacts: '**/*.war'
@@ -24,3 +24,4 @@ success {
 
 }
   }
+}
